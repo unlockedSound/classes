@@ -25,33 +25,53 @@
 // var if = 23;
 
 
-/*******************
- variable mutation and type coercion
+// /*******************
+//  variable mutation and type coercion
+//  */
+//
+// var firstName = 'John';
+// var age = 28;
+//
+// //type coercion
+// console.log(firstName + ' ' + age);
+//
+// var job, isMarried;
+// job = 'teacher';
+// isMarried = 'false';
+//
+// console.log(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
+//
+// //variable mutation
+//
+// age = 'twenty eight';
+// job = 'driver';
+//
+// alert(firstName + ' is a ' + age + ' year old ' + job + '. is he married? ' + isMarried);
+//
+// var lastName = prompt('What is his last name?');
+// console.log(firstName + ' ' + lastName)
+
+
+// /******************
+//  *  operatorgit
+//  */
+//
+//
+// stuff
+
+
+/***
+ * Coding Challenge 1
  */
+markHeight = 2;
+markWeight = 300;
 
-var firstName = 'John';
-var age = 28;
+johnHeight = 1.5;
+johnWeight = 800;
 
-//type coercion
-console.log(firstName + ' ' + age);
+markBMI = markWeight / markHeight^2;
+johnBMI = johnWeight / (johnHeight^2);
 
-var job, isMarried;
-job = 'teacher';
-isMarried = 'false';
+bmiComparison = markBMI > johnBMI;
 
-console.log(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
-
-//variable mutation
-
-age = 'twenty eight';
-job = 'driver';
-
-alert(firstName + ' is a ' + age + ' year old ' + job + '. is he married? ' + isMarried);
-
-var lastName = prompt('What is his last name?');
-console.log(firstName + ' ' + lastName)
-
-
-/******************
- *  operatorgit
- */
+console.log("Is Mark's BMI higher than John's?", bmiComparison);
