@@ -66,12 +66,14 @@
 markHeight = 2;
 markWeight = 300;
 
-johnHeight = 1.5;
-johnWeight = 800;
+johnHeight = 2;
+johnWeight = 300;
 
 markBMI = markWeight / markHeight^2;
-johnBMI = johnWeight / (johnHeight^2);
+johnBMI = johnWeight / johnHeight^2;
 
-bmiComparison = markBMI > johnBMI;
+bmiComparison = markBMI >= johnBMI;
+
+console.log(markBMI, johnBMI)
 
 console.log("Is Mark's BMI higher than John's?", bmiComparison);
